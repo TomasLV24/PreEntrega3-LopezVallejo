@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/diseno-patron-cafe.avif");
+}
+
+.titulos {
+  font-family: "Pacifico";
+}
+
+.txt-blanco {
+  color: white;
+}
+
+.txt-gris {
+  color: #a9a9a9;
+}
+.txt-gris:hover {
+  color: white;
+}
+
+.bg-color-1 {
+  background-color: #22333b;
+}
+
+.bg-color-2 {
+  background-color: #5e503f;
+}
+
+.bg-color-3 {
+  background-color: #c6ac8f;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sombra {
+  box-shadow: 10px 10px 4px;
+}
+
+.icon-margin {
+  margin: 6px;
+}
+
+.img-carrusel {
+  height: 400px;
+  width: 30px;
+}
+
+.img-section {
+  width: 150px;
+  height: 150px;
+  border-radius: 90px;
+}
+
+.img-nosotros {
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */

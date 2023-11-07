@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a La Cafetera: Tu lugar favorito para disfrutar de café de calidad y deliciosos bocadillos. Descubre nuestra variedad de sabores.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2950e460b1.js" crossorigin="anonymous"></script>
+    <title>La Cafetera</title>
+</head>
+<body>
+  <header class="navbar-expand-lg container-fluid d-flex align-items-center justify-content-center bg-color-1 p-0">
+    <div class="d-flex justify-content-center col-3 col-md-2 col-lg-1">
+      <a class="navbar-brand p-0" href="#">
+        <img src="./images/Logo.png" alt="Logo" class="img-fluid">
+      </a>
+    </div>
+
+    <div class="d-flex justify-content-start col-6 col-md-8 col-lg-4 txt-blanco">
+      <h1 class="m-0 titulos">LA CAFETERA</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg d-flex justify-content-center col-3 col-md-2 col-lg-6 txt-blanco">
+      <button class="navbar-toggler txt-gris" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon txt-gris"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav">
+
+          <li class="nav-item fs-5">
+            <a class="nav-link txt-gris" aria-current="page" href="#">Inicio</a>
+          </li>
+
+          <li class="nav-item fs-5">
+            <a class="nav-link txt-gris" href="./pages/productos.html">Productos</a>
+          </li>
+
+          <li class="nav-item fs-5">
+            <a class="nav-link txt-gris" href="./pages/sucursales.html">Sucursales</a>
+          </li>
+
+          <li class="nav-item fs-5">
+            <a class="nav-link txt-gris" href="./pages/nosotros.html">Nosotros</a>
+          </li>
+
+          <li class="nav-item fs-5">
+            <a class="nav-link txt-gris" href="./pages/contactos.html">Contactos</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div id="carouselExampleInterval" class="carousel slide justify-content-center" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/Promo-1.jpeg" class="d-block w-100 img-carrusel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/Promo-2.jpg" class="d-block w-100 img-carrusel" alt="...">
+          </div>
+        </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </section>
+
+    <section class="d-flex flex-column m-2 m-md-3 m-lg-4 sombra">
+      <div class="bg-color-3 rounded-top">
+        <h2>Nuestros Productos</h2>
+      </div>
+
+      <div class="d-flex bg-color-2 flex-column flex-lg-row align-items-center justify-content-evenly rounded-bottom p-5">
+
+        <div class="d-flex flex-column align-items-center col-lg-2 m-2">
+          <img src="./images/Cafe.jpg" alt="cafe" class="img-section">
+          <h4>Cafe</h4>
+        </div>
+
+        <div class="d-flex flex-column align-items-center col-lg-2 m-2">
+          <img src="./images/Bebidas.jpg" alt="bebidas" class="img-section">
+          <h4>Bebidas</h4>
+        </div>
+
+        <div class="d-flex flex-column align-items-center col-lg-2 m-2">
+          <img src="./images/Sandwich.jpg" alt="sandwich" class="img-section">
+          <h4>Sandwiches</h4>
+        </div>
+
+        <div class="d-flex flex-column align-items-center col-lg-2 m-2">
+          <img src="./images/Tortas.jpg" alt="tortas" class="img-section">
+          <h4>Tortas</h4>
+        </div>
+
+        <div class="d-flex flex-column align-items-center col-lg-2 m-2">
+          <img src="./images/Dulce.jpg" alt="dulce" class="img-section">
+          <h4>Dulces</h4>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-color-1"> 
+    <div class="d-flex flex-column flex-md-row">
+
+      <div class="d-none d-md-block col-md-3 p-3">
+        <div class="d-flex justify-content-center">
+          <img src="./images/Logo.png" alt="Logo ">
+        </div>
+        
+        <div class="d-flex justify-content-center">
+          <h5 class="titulos txt-blanco">LA CAFETERA</h5>
+        </div>
+      </div>
+    
+      <div class="d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0 col-md-3">
+        <h5 class="txt-blanco">Enlaces</h5>
+        <ul class="p-0 d-flex justify-content-center align-items-md-start flex-column align-items-center">
+          <li>
+            <a href="#" class="txt-gris link-color">Inicio</a>
+          </li>
+          <li>
+            <a href="./Pages/productos.html" class="txt-gris">Productos</a>
+          </li>
+          <li>
+            <a href="./Pages/sucursales.html" class="txt-gris">Sucursales</a>
+          </li>
+          <li>
+            <a href="./Pages/nosotros.html" class="txt-gris">Nosotros</a>
+          </li>
+          <li>
+            <a href="./Pages/contacto.html" class="txt-gris">Contactos</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0 col-md-3">
+        <h5 class="txt-blanco">Redes</h5>
+        <div>
+          <ul class="d-flex">
+            <li class="m-1 ms-md-0"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl txt-gris link-color"></i></a></li>
+            <li class="m-1 ms-md-0"><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl txt-gris link-color"></i></a></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="d-flex">
+            <li class="m-1 ms-md-0"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl txt-gris link-color"></i></a></li>
+            <li class="m-1 ms-md-0"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-square-youtube fa-2xl txt-gris link-color"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0 col-md-3">
+        <h5 class="txt-blanco">Contactos</h5>
+        <ul class="p-0 d-flex flex-column align-items-center justify-content-center align-items-md-start">
+          <li class="txt-gris">(0220) 123 4567</li>
+          <li><a href="mailto:info@lacafetera.com" class="txt-gris link-color">info@lacafetera.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
