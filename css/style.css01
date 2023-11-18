@@ -45,6 +45,11 @@ a {
   text-decoration: none;
 }
 
+.sombra {
+  box-shadow: 10px 10px 4px;
+  border: 2px black solid;
+}
+
 .icon-margin {
   margin: 6px;
 }
@@ -64,4 +69,4 @@ a {
   width: 300px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css01.map */
